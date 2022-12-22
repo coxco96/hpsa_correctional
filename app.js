@@ -1,6 +1,6 @@
 
 /* read geojson data */
-let promises = ['/data-for-web/hpsa_boundaries.json', '/data-for-web/hpsa_prison_only.json']
+let promises = ['./hpsa_boundaries.json', './hpsa_prison_only.json']
     .map(file => fetch(file)
     .then(r => r.json()));
 
