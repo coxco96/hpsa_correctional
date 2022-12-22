@@ -11,6 +11,6 @@ To use this Jupyter Notebook, you'll need the following packages installed:
 
 Beware that the notebook outputs two very large files (300+ MB). The last processes in the notebook run mapshaper commands through the subprocess module to reduce the file sizes significantly (< 10 MB). If you run this notebook in pieces rather than all at once, you should add data/hpsa_boundaries.json and data/hpsa_prison_only.json to your .gitignore.
 
-In this repo, I have moved my outputted data files to web-map/data-for-web. 
+In this repo, I have moved my outputted data files to the web-map directory.
 
-The web-map folder contains index.html and app.js files, displaying the map on a web page.
+I used ```git subtree push --prefix web-map origin gh-pages``` to run the Github Pages site from the web-map subfolder.
